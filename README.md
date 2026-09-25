@@ -8,9 +8,11 @@ Ersetze den Code durch deinen eigenen Bot (z. B. discord.js oder discord.py).
 |---|---|---|
 | Node.js | `nodejs/index.js` | keine (`nodejs/package.json` ist leer) |
 | Python | `python/app.py` | keine (`python/requirements.txt` ist leer) |
+| Java | `java/bot.jar` (Quelle `java/Bot.java`, gebaut mit `javac --release 17`, läuft auf Java 17 und 21) | keine |
 
 ## Nutzung im Bot-Hosting
 
 - **Git-URL:** `https://github.com/JensR93/gsh-sample-bots`
 - **Node.js:** Startdatei `nodejs/index.js`
 - **Python:** Startdatei `python/app.py`, Requirements `python/requirements.txt`
+- **Java:** JAR-Datei `java/bot.jar` (eigene JAR: bauen, ins Repo legen oder per Dateimanager hochladen)
